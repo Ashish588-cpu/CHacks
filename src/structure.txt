@@ -1,0 +1,27 @@
+src/
+├── assets/
+│   ├── fonts/
+│   └── images/
+├── components/
+│   ├── Navbar/
+│   │   ├── index.js
+│   │   └── styles.css
+│   ├── AudioRecorder/
+│   │   ├── index.js
+│   │   └── styles.css
+│   └── NoteEditor/
+│       ├── index.js
+│       └── styles.css
+├── pages/
+│   ├── AppRoutes.js
+│   ├── Home/
+│   │   ├── index.js
+│   │   └── styles.css
+│   ├── Recording/
+│   │   ├── index.js
+│   │   └── styles.css
+│   └── Notes/
+│       ├── index.js
+│       └── styles.css
+└── styles/
+    └── global.css

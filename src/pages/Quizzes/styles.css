@@ -1,0 +1,14 @@
+.quizzes {
+  padding: 2rem;
+  color: var(--text-primary);
+}
+
+.quizzes h2 {
+  margin-bottom: 2rem;
+}
+
+.quizzes-container {
+  background-color: var(--secondary-bg);
+  border-radius: 8px;
+  padding: 2rem;
+}
