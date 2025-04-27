@@ -8,11 +8,14 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <AppRoutes />
+        <main className="main-content">
+          <AppRoutes />
+        </main>
       </div>
     </Router>
   );
 }
 
 export default App;
+
 

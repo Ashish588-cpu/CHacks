@@ -1,8 +1,33 @@
 .home {
   padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--text-primary);
+  margin-bottom: 2rem;
   text-align: center;
 }
 
-.home h1 {
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background-color: var(--secondary-bg);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-card h2 {
+  color: var(--accent-color);
   margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: var(--text-secondary);
 }

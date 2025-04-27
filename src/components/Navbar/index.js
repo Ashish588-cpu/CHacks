@@ -9,6 +9,7 @@ function Navbar() {
       </div>
       <div className="navbar-links">
         <Link to="/">Home</Link>
+        <Link to="/recording">Record</Link>
         <Link to="/notes">Notes</Link>
         <Link to="/quizzes">Quizzes</Link>
         <Link to="/settings">Settings</Link>
@@ -18,5 +19,7 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
 
 
